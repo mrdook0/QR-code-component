@@ -9,8 +9,9 @@
 body {
     display: flex;
     text-align: center;
-    background-color: #4bc5c57c;
+    background-color: hsl(212, 45%, 89%);
     justify-content: center;
+    min-width: 100vh;
 }
 .card {
     position: relative;
@@ -20,7 +21,7 @@ body {
 }
 .card-body {
     position: absolute;
-    padding: 10px;
+    padding: 10px 15px 10px 15px;
     margin: 20px;
     border-radius: 13px;
     background-color: aliceblue;
@@ -32,14 +33,14 @@ body {
 h4 {
     margin-top: 10px;
     margin-bottom: 10px;
-    color: #0a1c42;
+    color: hsl(218, 44%, 22%);
     font-size: 16px;
     font-weight: 700px;
 }
 .card-body p {
     font-weight: 400px;
     font-size: 11px;
-    color: rgb(126, 122, 122);
+    color: hsl(216, 15%, 48%);
     margin-top: 10px;
     margin-bottom: 15px;
     margin-left: 10px;
